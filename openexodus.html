@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>OpenExodus</title>
+	<link rel="stylesheet" type="text/css" href="openexodus.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body style='overflow:hidden;'>
+	<p id='score' style='z-index:5; position:absolute; top:20px; left:20px; color:#FFFFFF'></p>
+	<p id='high-score' style='z-index:5; position:absolute; top:-1px; left:20px; color:#5EFC28'></p>
+	<p id='loading-text' style='color:white; font-size: 500%'>openExodus!</p>
+    <section id="canvas-section">
+        <div id='canvas-div'>
+            <canvas id="canvas">
+                This text is displayed if your browser does not support HTML5 Canvas.
+            </canvas>
+			<canvas id="canvas-background">
+            </canvas>
+        </div>
+    </section>
+    <section id="main-menu-section">
+    	<div id="main-menu">
+    		<h1 id="main-menu-title">Open Exodus</h1>
+    		<button id="start-game" type="button">Start Game</button>
+    		<!--button id="map-editor" type="button">Map Editor</button-->
+    	</div>
+    </section>
+    <section id="level-intro-section">
+    	<div id="level-intro">
+    		<p>Level Introduction Display</p>
+    		<p id="level-intro-info">Level x. X Moses' remaining</p>
+    	</div>
+    </section>
+	<script src="resources.js" type="text/javascript"></script>
+	<script src="sprite.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+	<script src="collision.js" type="text/javascript"></script>
+	<script src="render.js" type="text/javascript"></script>
+	<script src="input.js" type="text/javascript"></script>
+	<script src="actors.js" type="text/javascript"></script>
+	<script src="tiles.js" type="text/javascript"></script>
+	<script src="projectiles.js" type="text/javascript"></script>
+	<script src="levels.js" type="text/javascript"></script>
+	<script src="gameStatus.js" type="text/javascript"></script>
+	<script src="updateEntities.js" type="text/javascript"></script>
+	<script src="StackBlur.js" type="text/javascript"></script>
+	<script src="howler.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+#main-menu-section {
+	position:relative;
+	text-align: center;
+}
+
+#main-menu {
+	position: relative;
+	background: white;
+	z-index: 3;
+	text-align: center;
+	display: inline;
+	background: none;
+}
+
+#canvas-background {
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	background: black;
+}
+
+#canvas {
+	z-index: 2;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+button {
+	position:relative;
+	top:125px;
+	transform: scale(3, 3);
+}
+
+#main-menu-title {
+	position: absolute;
+	color: white;
+}
+
+#level-intro-section{ 
+	text-align:center;
+	position:relative;
+}
+
+#level-intro {
+	display: none;
+	position: relative;
+	background: white;
+	z-index: 3;
+	text-align: center;
+	display: inline;
+}
+
+#level-intro-info {
+	position:relative;
+}
